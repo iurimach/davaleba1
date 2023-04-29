@@ -1,0 +1,220 @@
+header{
+    max-width: 1920px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #ABB8AA;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+header>h1{
+   
+    max-width: 435px;
+    height: 47px;
+    font-family: 'Gentium Basic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: rgba(0, 0, 0, 0.62);
+}
+
+.inputdiv{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.inputdiv1{
+    display: inline-block;
+    position: relative;
+    margin-left: 175px;
+    
+}
+.inputdiv1>input{
+    width: 295px;
+    height: 42px;
+    border: 1px solid #363933;
+    
+}
+.inputdiv1>label{
+    position:absolute;
+    margin-top: -7px;
+    margin-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #363933;
+    scale: 2;
+    z-index: 1;
+        
+}
+.inputdiv2>button{
+    margin-left: 20px;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 6px;
+    max-width: 130px;
+    height: 42px;
+    background: #1E1E1E;
+    border-radius: 8px;
+   
+
+}
+.inputdiv2>button>p{
+    max-width: 73px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    flex: none;
+   
+    cursor: pointer;
+}
+
+.divbox{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0px;
+    gap: 20px;
+    
+
+    
+}
+.divsection1{
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+   justify-content: space-between;
+   
+    margin-left: 175px;
+    padding: 0px;
+    gap: 20px;
+    max-width: 1570px;
+    left: 175px;
+    top: 205px;
+    
+
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    gap: 20px;
+    padding: 20px 20px 58px;
+ 
+    max-width:  295px;
+    height: 429px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;}
+.card1>img{
+    margin-top:  20px;
+    width: 70px;
+    height: 70px;
+    background-color:rgba(126, 146, 117, 0.31);
+    border-radius: 78px;
+}
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 20px;
+    padding: 20px 20px 58px;
+ 
+    max-width: 295px;
+    height: 429px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+ 
+ .card2>img{
+    margin-top:  20px;
+     width: 70px;
+     height: 70px;
+     background-color:rgba(126, 146, 117, 0.31);
+     border-radius: 78px;
+ }
+ .card3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 20px;
+    padding: 20px 20px 58px;
+ 
+    max-width: 295px;
+    height: 429px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+ }
+ .card3>img{
+    margin-top:  20px;
+     width: 70px;
+     height: 70px;
+     background-color:rgba(126, 146, 117, 0.31);
+     border-radius: 78px;
+ }
+ .card4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 20px;
+    padding: 20px 20px 58px;
+ 
+    max-width: 295px;
+    height: 429px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+ }
+ .card4>img{
+    margin-top:  20px;
+     width: 70px;
+     height: 70px;
+     background-color:rgba(126, 146, 117, 0.31);
+     border-radius: 78px;
+ }
+ .divsection2{
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+   justify-content: space-between;
+    margin-left: 175px;
+    padding: 0px;
+    gap: 20px;
+    max-width: 1570px;
+    
+    left: 175px;
+    margin-top: 20px;
+    
+}

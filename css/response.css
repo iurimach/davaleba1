@@ -1,0 +1,44 @@
+@media (max-width:1280px){
+    .divsection1, .divsection2{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .inputdiv1>input{
+       max-width: 295px;
+    }
+}
+
+@media (max-width:650px){
+    .inputdiv1{
+    margin-left: 60px;}
+    .divbox{
+        margin-right: 70px;
+    }
+          
+}
+
+
+
+@media (max-width:500px){
+    .inputdiv1{
+        margin-left: 0px;}
+    .inputdiv2>button {
+        width: auto;
+    }
+    .inputdiv2>button>p{
+        width: 40px;
+        font-size: 14px;
+    }
+    .inputdiv1>input{
+        max-width: 195px;
+ }
+ header>h1{
+    font-size: 24px;
+ }
+ .divbox{
+    margin-right: 90px;
+}
+}
