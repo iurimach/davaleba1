@@ -42,7 +42,7 @@ header>h1{
 .inputdiv1>label{
     position:absolute;
     margin-top: -7px;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -51,6 +51,7 @@ header>h1{
     color: #363933;
     scale: 2;
     z-index: 1;
+    background-color: white;
         
 }
 .inputdiv2>button{
