@@ -28,15 +28,6 @@
     }
 }
 
-@media (max-width:650px){
-    .inputdiv1{
-    margin-left: 60px;}
-    .divbox{
-        margin-right: 70px;
-    }
-          
-}
-
 
 
 @media (max-width:500px){
@@ -59,7 +50,5 @@
  header>h1{
     font-size: 24px;
  }
- .divbox{
-    margin-right: 90px;
-}
+
 }
