@@ -10,6 +10,23 @@
        max-width: 295px;
     }
 }
+@media (max-width:744px){
+    .inputdiv1>input{
+        max-width: 195px;
+
+     }
+     .inputdiv2>button {
+        width: auto;
+       
+    }
+    .inputdiv2>button>p{
+        width: 406x;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 @media (max-width:650px){
     .inputdiv1{
@@ -27,10 +44,14 @@
         margin-left: 0px;}
     .inputdiv2>button {
         width: auto;
+       
     }
     .inputdiv2>button>p{
         width: 40px;
         font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .inputdiv1>input{
         max-width: 195px;
