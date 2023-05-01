@@ -29,13 +29,16 @@ header>h1{
 .inputdiv{
     width: 100%;
     display: flex;
-
     background: #E3EDE0;
+}
+.inputdivnone{
+    width: 220px;
+
 }
 .inputdiv1{
     display: inline-block;
     position: relative;
-    margin-left: 215px;
+   
     margin-top: 20px;
 }
 .inputdiv1>input{
@@ -59,9 +62,10 @@ header>h1{
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
+    text-align: center;
     color: #363933;
     scale: 2;
-    z-index: 1;
+   
     background: #E3EDE0;
     box-sizing: border-box;
 
@@ -72,7 +76,6 @@ header>h1{
 }
 .inputdiv2>button{
     margin-left: 20px;
-    margin-top: 7px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -84,9 +87,7 @@ header>h1{
     border-radius: 8px;
     margin-top: 20px;
     border: none;
-
-    
-   
+ 
 
 }
 .inputdiv2>button>p{
@@ -113,13 +114,13 @@ header>h1{
     align-items: center;
       
 }
+
 .divsection1{
     display: flex;
     margin-top: 20px;
     display: flex;
    justify-content: space-between;
-   
-   
+   flex-wrap: wrap;
     padding: 0px;
     gap: 130px;
     max-width: 1570px;
@@ -149,6 +150,7 @@ header>h1{
     background-color:rgba(126, 146, 117, 0.31);
     border-radius: 78px;
 }
+
 .card2 {
     display: flex;
     flex-direction: column;
@@ -224,7 +226,7 @@ header>h1{
     margin-top: 20px;
     display: flex;
    justify-content: space-between;
-   
+   flex-wrap: wrap;
    gap: 130px;
     max-width: 1570px;
     margin-top: 20px;
